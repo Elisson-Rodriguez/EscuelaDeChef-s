@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__navegacion{
+        display: flex;
+        column-gap: 2rem;
+
+        &-enlace{
+            font-size: 2rem;
+        }
+    }
+    &__copyright{
+        font-size: 2rem;
+    }
+}
